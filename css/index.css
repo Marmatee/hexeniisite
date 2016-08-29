@@ -1,12 +1,12 @@
 img.logo {
-    height: 300px;
-    position: fixed;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    top: 200px;
-    transition: ease-in-out 0.2s;
-    z-index: 20
+  height: 300px;
+  position: fixed;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  top: 200px;
+  transition: ease-in-out 0.2s;
+  z-index: 20;
 }
 
 img.logo:hover {
@@ -14,41 +14,48 @@ img.logo:hover {
 }
 
 .enter {
-    position: fixed;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    top: 450px;
-    transition: ease-in-out 0.2s;
-    font-size: 75px;
-    font-family: 'exocetlight';
-    z-index: 20;
-    color: #fffd1d;
-    -webkit-filter: drop-shadow(2px 2px 4px #000000);
+  position: fixed;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  top: 200px;
+  transition: ease-in-out 0.2s;
+  font-size: 75px;
+  font-family: 'exocetlight';
+  z-index: 20;
+  color: #eb0113;
+  -webkit-filter: drop-shadow(2px 2px 4px #000000);
+  text-decoration: none;
+  letter-spacing: 25px;
+}
+
+.enter:hover {
+  color: black;
+  -webkit-filter: drop-shadow(0px 0px 4px #ffffff);
 }
 
 video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
 }
 
 .overlay {
-    background-image: url("../resources/fx.png");
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 10;
+  background-image: url("../resources/fx.png");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
 }
