@@ -1,0 +1,31 @@
+.index {
+    width: 900px;
+    background-color: white;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+body {
+    margin: auto;
+    width: 700px;
+}
+
+embed.header {
+    width: 900px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer.indexfooter {
+    position: absolute;
+    bottom: 0px;
+    width: 900px;
+}
