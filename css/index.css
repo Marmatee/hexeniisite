@@ -27,6 +27,7 @@ img.logo:hover {
   -webkit-filter: drop-shadow(2px 2px 4px #000000);
   text-decoration: none;
   letter-spacing: 25px;
+  text-align: center;
 }
 
 .enter:hover {
@@ -48,6 +49,21 @@ video#bgvid {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
+}
+
+.subtitle {
+  top: 620px;
+  position: fixed;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 30;
+  font-family: 'exocetlight';
+  z-index: 20;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 25px;
+  text-align: center;
 }
 
 .overlay {
