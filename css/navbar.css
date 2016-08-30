@@ -8,14 +8,14 @@ ul {
 }
 
 li {
-    float: left;
+    display: inline-block;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 60px;
     text-decoration: none;
     font-family: 'exocetlight';
     letter-spacing: 5px;

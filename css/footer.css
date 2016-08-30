@@ -2,15 +2,15 @@
     margin: 0;
     position: absolute;
     top: 85%;
-    left: 47%;
+    left: 450px;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-family: 'exocetlight';
     letter-spacing: 8px;
     color: white;
     background: url('../resources/headerbg.png');
-    padding: 14px 16px;
-    width: 860px;
+    padding: 15px 16px;
+    width: 850px;
     border-radius: 5px;
     text-align: center;
 }
