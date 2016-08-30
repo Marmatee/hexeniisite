@@ -1,0 +1,41 @@
+.content {
+    width: 860px;
+    margin: auto;
+    background: url("../resources/centerbg.png");
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.maintext {
+  font-family: 'carrois';
+  font-size: 15px
+}
+
+body {
+    background-image: url("../resources/mainbg.png");
+}
+
+embed.header {
+    width: 900px;
+    height: 316px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+embed.navbar {
+    width: 900px;
+    height: 65px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+h2 {
+    font-family: 'exocetlight';
+}
+
+embed.footer {
+    width: 950px;
+    margin-left: -20px;
+}
