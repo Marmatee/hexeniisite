@@ -1,0 +1,16 @@
+.content {
+    width: 860px;
+    margin: auto;
+    background: url("../resources/centerbg.png");
+    border-radius: 25px;
+    padding: 40px;
+}
+
+body {
+    background-image: url("../resources/mainbg.png");
+}
+
+embed.header {
+  width: 900px;
+  height: 250px;
+}

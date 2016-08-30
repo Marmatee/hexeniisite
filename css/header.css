@@ -1,0 +1,17 @@
+.header {
+    margin: 0;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 175px;
+}
+
+p.subheading {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}

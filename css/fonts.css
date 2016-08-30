@@ -6,3 +6,12 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: '8bit16';
+    src: url('../resources/fonts/8bit16.woff2') format('woff2'),
+         url('../resources/fonts/8bit16.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
