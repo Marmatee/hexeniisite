@@ -11,8 +11,9 @@ body {
 }
 
 embed.header {
-  width: 900px;
-  height: 250px;
+    width: 900px;
+    height: 316px;
+    margin-left: -20px;
 }
 
 embed.navbar {

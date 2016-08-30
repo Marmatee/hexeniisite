@@ -1,17 +1,52 @@
-.header {
+.box {
+  border-radius: 25px;
+  background: url("../resources/headerbg.png");
+  height: 300px;
+}
+
+img.header {
     margin: 0;
     position: absolute;
-    top: 110px;
+    top: 125px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     height: 175px;
+    animation: pulse 10s infinite;
 }
 
 p.subheading {
     position: absolute;
-    top: 210px;
+    top: 237px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    font-family: 'exocetlight';
+    color: white;
+    letter-spacing: 9px;
+}
+
+
+@keyframes pulse {
+  0% {
+    -webkit-filter: drop-shadow(5px 5x 10px #fdcf58);
+  }
+  4% {
+    -webkit-filter: drop-shadow(5px 5px 10px #f27d0c);
+  }
+  17% {
+    -webkit-filter: drop-shadow(5px 5px 10px #f07f13)
+  }
+  60% {
+    -webkit-filter: drop-shadow(5px 5px 10px #800909)
+  }
+  72% {
+    -webkit-filter: drop-shadow(5px 5px 10px #f27d0c)
+  }
+  81% {
+    -webkit-filter: drop-shadow(5px 5px 10px #f07f13);
+  }
+  100% {
+    -webkit-filter: drop-shadow(5px 5px 10px #fdcf58);
+  }
 }
