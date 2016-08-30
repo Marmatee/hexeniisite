@@ -14,3 +14,12 @@ embed.header {
   width: 900px;
   height: 250px;
 }
+
+embed.navbar {
+    width: 900px;
+    height: 65px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
