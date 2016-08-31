@@ -29,7 +29,7 @@ p.subheading {
 
 @keyframes pulse {
   0% {
-    -webkit-filter: drop-shadow(5px 5x 10px #fdcf58);
+    -webkit-filter: drop-shadow(5px 5px 10px #fdcf58);
   }
   4% {
     -webkit-filter: drop-shadow(5px 5px 10px #f27d0c);

@@ -36,6 +36,8 @@ h2 {
 }
 
 embed.footer {
-    width: 950px;
+    width: 910px;
     margin-left: -20px;
+    height: 335px;
+    margin-bottom: -40px;
 }
