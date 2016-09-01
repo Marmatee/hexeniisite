@@ -1,10 +1,10 @@
 .slideshow {
-	width: 640px;
-	height: 360px;
-	position: relative;
-	text-align: center;
-	line-height: 750px;
-	padding-bottom: 30px;
+    width: 875px;
+    height: 280px;
+    position: relative;
+    text-align: center;
+    line-height: 1050px;
+    padding-bottom: 30px;
 }
 
 .slideshow[data-transition="zoom"] {
@@ -13,12 +13,12 @@
 
 /* slideshow item */
 .slideshow--item {
-	width: 640px;
-	height: 360px;
-	line-height: 1.5;
-	position: absolute;
-	top: 0;
-	visibility: hidden;
+    width: 865px;
+    height: 550px;
+    line-height: 1.5;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
 }
 
 .slideshow--bullet:checked + .slideshow--item {
@@ -120,5 +120,5 @@
 }
 
 div img {
-	width: 640px;
+    width: 865px;
 }
