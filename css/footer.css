@@ -14,3 +14,9 @@
     border-radius: 5px;
     text-align: center;
 }
+
+::selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}

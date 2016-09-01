@@ -28,3 +28,9 @@ li a:hover {
     background-color: #d00000;
     border-radius: 5px;
 }
+
+::selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}

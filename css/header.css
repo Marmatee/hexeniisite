@@ -51,7 +51,8 @@ p.subheading {
   }
 }
 
-embed.favicons {
-    height: 0px;
-    width: 0px;
+::selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
 }
