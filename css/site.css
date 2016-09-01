@@ -13,6 +13,7 @@
 
 body {
     background-image: url("../resources/mainbg.png");
+    margin: 10px;
 }
 
 embed.header {
