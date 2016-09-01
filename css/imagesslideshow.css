@@ -66,14 +66,19 @@
 }
 
 .slideshow--nav:after {
-	display: block;
-	content: '\25B6';
-	font-size: 2em;
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	right: 10px;
-	margin-top: -.5em;
+    display: block;
+    content: '\25B6';
+    font-size: 2em;
+    color: #fff0;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -.5em;
+    transition: ease-in-out 0.2s;
+}
+
+.slideshow--nav:hover {
+    color: white;
 }
 
 .slideshow--nav-previous {
@@ -108,7 +113,7 @@
     appearance: none;
     background: #431c14;
     border-radius: 1em;
-    transition: .3s ease-out background, .3s ease-out transform;
+    transition: .2s ease-out background, .2s ease-out transform;
 }
 
 .slideshow--bullet:checked {
