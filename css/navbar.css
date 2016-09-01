@@ -12,13 +12,15 @@ li {
 }
 
 li a {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
-    padding: 15px 60px;
+    padding: 15px 42px;
     text-decoration: none;
     font-family: 'exocetlight';
     letter-spacing: 5px;
+    transform: translate(0%, 0%);
+    line-height: 15px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -33,4 +35,28 @@ li a:hover {
     background: #333;
     color: #fff;
     text-shadow: none;
+}
+
+.alchemy {
+    display: inline;
+    font-family: 'alchemy';
+    color: white;
+    animation: alchemy 5s infinite;
+    padding-right: 4px;
+    font-size: 30px;
+}
+
+@keyframes alchemy {
+  0% {
+    color: #9D7D58;
+  }
+  33% {
+    color: #163AC6;
+  }
+  67% {
+    color: #60b860;
+  }
+  100% {
+    color: #9D7D58;
+  }
 }

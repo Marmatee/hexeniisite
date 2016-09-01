@@ -37,6 +37,10 @@ h2 {
     font-family: 'exocetlight';
 }
 
+h2.left {
+    -webkit-margin-start: -40px;
+}
+
 embed.footer {
     width: 910px;
     margin-left: -20px;
@@ -53,4 +57,29 @@ embed.favicons {
     background: #333;
     color: #fff;
     text-shadow: none;
+}
+
+.alchemy {
+    display: inline;
+    font-family: 'alchemy';
+    color: white;
+    animation: alchemy 5s infinite;
+    padding-right: 20px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+@keyframes alchemy {
+  0% {
+    color: #9D7D58;
+  }
+  33% {
+    color: #163AC6;
+  }
+  67% {
+    color: #60b860;
+  }
+  100% {
+    color: #9D7D58;
+  }
 }

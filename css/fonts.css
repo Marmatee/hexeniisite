@@ -24,3 +24,12 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'alchemy';
+    src: url('../resources/fonts/alchemy.woff2') format('woff2'),
+         url('../resources/fonts/alchemy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
