@@ -75,6 +75,7 @@ video#bgvid {
   text-decoration: none;
   letter-spacing: 25px;
   text-align: center;
+  -webkit-filter: drop-shadow(2px 2px 4px #000000);
 }
 
 .overlay {
