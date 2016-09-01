@@ -43,3 +43,8 @@ embed.footer {
     height: 335px;
     margin-bottom: -40px;
 }
+
+embed.favicons {
+    height: 0px;
+    width: 0px;
+}

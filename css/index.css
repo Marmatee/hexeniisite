@@ -87,3 +87,8 @@ video#bgvid {
   left: 0px;
   z-index: 10;
 }
+
+embed.favicons {
+    height: 0px;
+    width: 0px;
+}

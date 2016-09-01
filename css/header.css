@@ -50,3 +50,8 @@ p.subheading {
     -webkit-filter: drop-shadow(5px 5px 10px #fdcf58);
   }
 }
+
+embed.favicons {
+    height: 0px;
+    width: 0px;
+}
