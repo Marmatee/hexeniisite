@@ -8,7 +8,8 @@
 
 .maintext {
   font-family: 'carrois';
-  font-size: 15px
+  font-size: 15px;
+  margin-top: -50px;
 }
 
 body {
@@ -25,7 +26,7 @@ embed.header {
 
 embed.navbar {
     width: 900px;
-    height: 65px;
+    height: 110px;
     position: relative;
     top: 50%;
     left: 50%;
