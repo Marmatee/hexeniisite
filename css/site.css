@@ -37,10 +37,6 @@ h2 {
     font-family: 'exocetlight';
 }
 
-h2.left {
-    -webkit-margin-start: -40px;
-}
-
 embed.footer {
     width: 910px;
     margin-left: -20px;
