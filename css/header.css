@@ -66,8 +66,6 @@ p.subheading {
 }
 
 @media screen and ( max-width: 500px ) {
- /* When the viewport is 768px or less,
-    hide #sidebar */
     .subheading {
       font-size: 10px;
       transition: ease-in-out 0.2s;

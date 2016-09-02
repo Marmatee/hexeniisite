@@ -15,8 +15,6 @@ html {
 }
 
 @media screen and ( max-width: 300px ) {
- /* When the viewport is 768px or less,
-    hide #sidebar */
     .footer {
         font-size: 10px;
     }
