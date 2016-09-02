@@ -12,7 +12,8 @@ img.header {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    height: 175px;
+    max-width: 90%;
+    max-height: 175px;
     animation: pulse 10s infinite;
 }
 
@@ -25,6 +26,7 @@ p.subheading {
     font-family: 'exocetlight';
     color: white;
     letter-spacing: 9px;
+    text-align: center;
 }
 
 
