@@ -1,7 +1,8 @@
 .box {
-  border-radius: 25px;
-  background: url("../resources/headerbg.png");
-  height: 300px;
+    border-radius: 25px;
+    background: url("../resources/headerbg.png");
+    height: 300px;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
 
 img.header {

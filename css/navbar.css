@@ -4,7 +4,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background: url("../resources/headerbg.png");
-    border-radius: 5px
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.9) inset;
 }
 
 li {
