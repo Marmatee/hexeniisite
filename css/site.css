@@ -80,6 +80,23 @@ embed.footer {
     vertical-align: middle;
 }
 
+.video {
+	position:relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow:hidden;
+  border-radius: 5px;
+}
+
+.video iframe, .video object, .video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 @keyframes alchemy {
   0% {
     color: #9D7D58;
