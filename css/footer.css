@@ -1,16 +1,10 @@
 .footer {
     margin: 0;
-    position: absolute;
-    top: 85%;
-    left: 450px;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
     font-family: 'exocetlight';
     letter-spacing: 8px;
     color: white;
-    background: url('../resources/headerbg.png');
+    background: url(../resources/headerbg.png);
     padding: 15px 16px;
-    width: 850px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 25px rgba(0,0,0,0.9) inset;

@@ -1,10 +1,13 @@
 .content {
-    width: 860px;
+    /*width: 860px;*/
     margin: auto;
     background: url("../resources/centerbg.png");
     border-radius: 25px;
     padding: 40px;
     box-shadow: 0 0 25px rgba(0,0,0,0.9) inset;
+    padding-bottom: 75px;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 .maintext {
@@ -14,24 +17,29 @@
 }
 
 body {
-    background-image: url("../resources/mainbg.png");
-    margin: 10px;
+    background-image: url(../resources/mainbg.png);
+    margin: 10px !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
 
 embed.header {
-    width: 900px;
+    width: 100%;
     height: 316px;
-    margin-left: -20px;
+    margin-left: 0px;
     margin-top: -20px;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 embed.navbar {
-    width: 900px;
+    width: 100%;
     height: 110px;
     position: relative;
     top: 50%;
-    left: 50%;
     transform: translate(-50%, 0%);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 h2 {
@@ -39,10 +47,9 @@ h2 {
 }
 
 embed.footer {
-    width: 910px;
-    margin-left: -20px;
-    height: 335px;
-    margin-bottom: -40px;
+    width: 100%;
+    height: 85px;
+    margin-bottom: -295px;
 }
 
 embed.favicons {
