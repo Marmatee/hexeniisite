@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -6,6 +10,8 @@ ul {
     background: url("../resources/headerbg.png");
     border-radius: 5px;
     box-shadow: 0 0 25px rgba(0,0,0,0.9) inset;
+    transition: ease-in-out 0.2s;
+    text-align: center;
 }
 
 li {
@@ -22,6 +28,7 @@ li a {
     letter-spacing: 5px;
     transform: translate(0%, 0%);
     line-height: 15px;
+    transition: ease-in-out 0.2s;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -45,6 +52,7 @@ li a:hover {
     animation: alchemy 5s infinite;
     padding-right: 4px;
     font-size: 30px;
+    transition: ease-in-out 0.2s;
 }
 
 @keyframes alchemy {
@@ -60,4 +68,30 @@ li a:hover {
   100% {
     color: #9D7D58;
   }
+}
+
+@media screen and ( max-width: 300px ) {
+    ul {
+      font-size: 10px;
+      display: block;
+      transition: ease-in-out 0.2s;
+    }
+    .alchemy {
+      font-size: 20px;
+      margin-left: -30px;
+      transition: ease-in-out 0.2s;
+    }
+}
+
+@media screen and ( max-width: 400px ) {
+    ul {
+      display: list-item;
+      transition: ease-in-out 0.2s;
+      text-align: center;
+      transition: ease-in-out 0.2s;
+    }
+    .alchemy {
+      margin-left: -30px;
+      transition: ease-in-out 0.2s;
+    }
 }
