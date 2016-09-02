@@ -1,10 +1,14 @@
+html {
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
 .content {
     margin: auto;
     background: url("../resources/centerbg.png");
     max-width: 860px;
     border-radius: 25px;
     padding: 40px;
-    box-shadow: 0 0 25px rgba(0,0,0,0.9) inset;
+    box-shadow: 0 0 100px rgba(0,0,0,0.9);
     padding-bottom: 75px;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0) scale(1.0, 1.0);
