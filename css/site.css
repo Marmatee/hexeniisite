@@ -30,6 +30,7 @@ body {
     margin: 10px !important;
     margin-left: 10% !important;
     margin-right: 10% !important;
+    transition: ease-in-out 0.2s;
 }
 
 embed.header {
