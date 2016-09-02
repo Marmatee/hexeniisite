@@ -114,7 +114,7 @@ embed.footer {
 
 @media screen and ( max-width: 1170px ) {
     embed.navbar {
-        height: 220px;
+        height: 165px;
         transition: ease-in-out 0.2s;
     }
 }
@@ -148,7 +148,18 @@ embed.footer {
 
 @media screen and ( max-width: 537px ) {
   embed.navbar {
-      height: 240px;
+      height: 210px;
+      transition: ease-in-out 0.2s;
+  }
+    .maintext h2 {
+      text-align: center;
+      transition: ease-in-out 0.2s;
+    }
+}
+
+@media screen and ( max-width: 452px ) {
+  embed.navbar {
+      height: 265px;
       transition: ease-in-out 0.2s;
   }
     .maintext h2 {
