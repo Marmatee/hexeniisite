@@ -131,7 +131,8 @@ embed.favicons {
 @media screen and ( max-width: 339px ) {
   .subtitle {
   font-size: 20px;
-  transform: translate(-50%, -410%);
+  transform: translate(-50%, -824%);
+  letter-spacing: 5px;
   transition: ease-in-out 0.2s;
   }
 }
