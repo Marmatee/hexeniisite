@@ -5,8 +5,8 @@ Web design project for Hexen II fan site.
 https://rawgit.com/Marmatee/hexeniisite/master/index.html
 
 ## Credits
-https://github.com/joggink/pure-css-slideshow
-http://bg.siteorigin.com/
+- https://github.com/joggink/pure-css-slideshow
+- http://bg.siteorigin.com/
 
 ## Compatibility
 - Works 100% in Chrome and Opera
