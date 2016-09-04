@@ -5,9 +5,19 @@ Web design project for Hexen II fan site.
 https://rawgit.com/Marmatee/hexeniisite/master/index.html
 
 ## Credits
-I was going for the "write all the code myself" in this one but there's no point reinventing the wheel. To see how I did the Screenshots page, check out this awesome project:
 https://github.com/joggink/pure-css-slideshow
+http://bg.siteorigin.com/
 
-## Other stuff
-Only confirmed working 100% in Chrome.
-Seems to work without problem on iPhone too.
+## Compatibility
+- Works 100% in Chrome and Opera
+- Works to a perfectly useable level in IE, Firefox and Edge
+- Mobile works fine iOS and aparently Android too
+- Safari on Mac looks a like a mess, need to write CSS for it
+
+## Next steps?
+- Make it work on Safari
+
+## Cosmetic stuff to be done
+- Record my own video for the background on index.html
+- Take maybe 4 or 5 screenshots of all of the hubs and put them on the screenshots page
+- Write my own content instead of using stock wiki stuff!
