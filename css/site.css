@@ -1,6 +1,21 @@
-/*Stuff to make it work in IE*/
+/*Stuff to make it work in IE and Firefox*/
 
+/*IE*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .navbar {
+  transform: translate(0%, 0%) !important;
+  }
+
+  .maintext {
+  transform: translate(0%, 0%) !important;
+  }
+}
+
+/*Firefox*/
+@media screen and (-moz-images-in-menus:0) {
+  html {
+  box-shadow: none !important;
+  }
   .navbar {
   transform: translate(0%, 0%) !important;
   }
