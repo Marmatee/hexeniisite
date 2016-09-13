@@ -1,11 +1,53 @@
-/*Stuff to make it work in IE and Firefox*/
+/*Stuff to make it cross browser*/
 
+/*iPhone 5*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  img.logo {
+    height: 150px;
+    transform: translate(-50%, -130%);
+    transition: ease-in-out 0.2s;
+  }
+
+  .enter {
+    transition: ease-in-out 0.2s;
+    transform: translate(-50%, -275%);
+    font-size: 33px;
+    margin-left: 5px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    transform: translate(-50%, -1385%);
+    letter-spacing: 5px;
+    transition: ease-in-out 0.2s;
+  }
+
+  video#bgvid {
+    visibility: hidden;
+  }
+
+  body {
+    background-image: url("../resources/frame.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  html {
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+  }
+
+}
+
+/*IE*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .enter {
     top: 390px !important;
   }
 }
 
+/*Firefox*/
 @media screen and (-moz-images-in-menus:0) {
   body {
     background-size: 500% !important;

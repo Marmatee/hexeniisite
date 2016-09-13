@@ -1,4 +1,33 @@
-/*Stuff to make it work in IE and Firefox*/
+/*Stuff to make it cross browser*/
+
+/*iPhone 5*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+embed.navbar {
+      height: 270px;
+      transition: ease-in-out 0.2s;
+  }
+
+.maintext h2 {
+      text-align: center;
+      transition: ease-in-out 0.2s;
+  }
+
+body {
+      background-image: url(../resources/mainbg.png);
+      margin: 2% !important;
+      margin-left: 2% !important;
+      margin-right: 2% !important;
+      transition: ease-in-out 0.2s;
+  }
+
+.content {
+      padding: 2%;
+      padding-top: 30px;
+      padding-bottom: 75px;
+  }
+}
 
 /*IE*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
