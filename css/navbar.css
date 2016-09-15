@@ -1,3 +1,32 @@
+/*iPhone specific stuff*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  ul {
+    font-size: 70px;
+    transition: ease-in-out 0.2s;
+    box-shadow: 0 0 250px rgba(0,0,0,0.9) inset !important;
+    border-radius: 0px !important;
+    width: 985px;
+  }
+  .alchemy {
+    font-size: 90px !important;
+    margin-left: -30px;
+    transition: ease-in-out 0.2s;
+    padding-right: 25px !important;
+  }
+  li a {
+    letter-spacing: 5px;
+    line-height: 90px !important;
+    display: block !important;
+  }
+  li {
+    display: inline !important;
+  }
+}
+
+/*End of iPhone stuff*/
+
 html {
   overflow: hidden;
 }
@@ -89,6 +118,10 @@ li a:hover {
     }
     li {
         display: inline;
+    }
+    li a {
+      display: block;
+      text-align: center;
     }
 }
 

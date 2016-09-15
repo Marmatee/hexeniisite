@@ -1,3 +1,31 @@
+/*Stuff to make it work on iPhone*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  p.subheading {
+      position: absolute;
+      top: 390px !important;
+      left: 50% !important;
+      letter-spacing: 10px !important;
+      transition: ease-in-out 0.2s;
+      font-size: 45px;
+      transform: translate(-50%, 0%) !important;
+  }
+
+  img.header {
+      top: 224px !important;
+      max-height: 370px !important;
+      height: 370px;
+  }
+
+  .box {
+    height: 500px !important;
+    border-radius: 0px !important;
+    width: 985px !important;
+  }
+}
+/*End of iPhone stuff*/
+
 html {
   overflow-x: hidden;
 }

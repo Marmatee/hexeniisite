@@ -15,6 +15,76 @@
 }
 /*End of browser specific stuff*/
 
+/*iPhone 5 specific stuff*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+  video#bgvid {
+    visibility: hidden;
+  }
+
+  body {
+    background-image: url("../resources/frame.jpg");
+    background-size: cover;
+    background-position: center;
+    position: fixed !important;
+  }
+
+  .subtitle {
+    top: 1130px !important;
+    font-size: 85px !important;
+  }
+
+  .enter {
+      font-size: 235px !important;
+      top: 415px !important;
+  }
+
+  img.logo {
+  max-height: 600px !important;
+  height: 600px !important;
+  top: 365px !important;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+  video#bgvid {
+    visibility: hidden;
+  }
+
+  body {
+    background-image: url("../resources/frame.jpg");
+    background-size: cover;
+    background-position: center;
+    position: fixed !important;
+  }
+
+  .subtitle {
+      top: 350px !important;
+      font-size: 40px !important;
+      transform: translate(-50%, -60%) !important;
+  }
+
+  .enter {
+      font-size: 106px !important;
+      top: 60px !important;
+      transform: translate(-5%, -25%) !important;
+  }
+
+  img.logo {
+      max-height: 300px !important;
+      height: 600px !important;
+      top: 210px !important;
+      transform: translate(-150%, -68%) !important;
+  }
+}
+
+/*End of iPhone 5 stuff*/
+
 img.logo {
   max-height: 300px;
   position: fixed;
@@ -165,6 +235,8 @@ embed.favicons {
     background-image: url("../resources/frame.jpg");
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    position: fixed;
   }
 
   html {

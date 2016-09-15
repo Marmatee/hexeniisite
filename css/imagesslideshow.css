@@ -1,3 +1,28 @@
+/*Stuff to make it work on iPhone*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .slideshow {
+      height: 240px !important;
+      width: 983px !important;
+      margin-left: -60px !important;
+      padding-bottom: 435px !important;
+      border-radius: 0px !important;
+  }
+
+  .slideshow--bullet {
+      font-size: 44px !important;
+      top: 268px !important;
+      margin-left: 30px !important;
+  }
+
+  .maintext {
+    font-size: 50px !important;
+  }
+
+}
+/*End of iPhone stuff*/
+
 .slideshow {
   width: 100%;
   height: 310px;
@@ -130,6 +155,11 @@ div img {
   transform: translate(0%, 0%);
   border-radius: 5px;
   display: flex;
+}
+
+.maintext {
+  font-size: 15px;
+  color: black;
 }
 
 @media screen and ( max-width: 1070px ) {
