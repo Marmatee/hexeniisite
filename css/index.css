@@ -29,7 +29,7 @@ and (orientation: portrait) {
   }
 
   .subtitle {
-    top: 1310px !important;
+    top: 1130px !important;
     font-size: 85px !important;
   }
 
@@ -62,7 +62,7 @@ and (orientation: landscape) {
   .subtitle {
       top: 350px !important;
       font-size: 40px !important;
-      transform: translate(-50%, 0%) !important;
+      transform: translate(-50%, -60%) !important;
   }
 
   .enter {
@@ -72,10 +72,10 @@ and (orientation: landscape) {
   }
 
   img.logo {
-      max-height: 334px !important;
+      max-height: 300px !important;
       height: 600px !important;
       top: 210px !important;
-      transform: translate(-130%, -60%) !important;
+      transform: translate(-150%, -68%) !important;
   }
 }
 
