@@ -1,3 +1,20 @@
+/*Stuff to make it work on iPhone*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .slideshow {
+    height: 240px !important;
+  }
+
+  .slideshow--bullet {
+    font-size: 25px !important;
+    top: 135px !important;
+    margin-left: 30px !important;
+  }
+
+}
+/*End of iPhone stuff*/
+
 .slideshow {
   width: 100%;
   height: 310px;

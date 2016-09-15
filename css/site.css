@@ -32,6 +32,7 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
+
   embed.navbar {
       height: 420px !important;
       transition: ease-in-out 0.2s;
