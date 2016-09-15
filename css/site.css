@@ -27,6 +27,51 @@
 
 /*End of browser specific stuff*/
 
+/*Stuff to make it work on iPhones*/
+/*5 & 5S*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  embed.navbar {
+      height: 420px !important;
+      transition: ease-in-out 0.2s;
+  }
+
+  embed.header {
+      height: 400px !important;
+  }
+
+  .maintext h2 {
+      text-align: center;
+      transition: ease-in-out 0.2s;
+      padding-top: 40px;
+      font-size: 80px;
+  }
+
+  .content {
+      padding-top: 30px;
+      padding-bottom: 75px;
+  }
+
+  .alchemy {
+    font-size: 100px !important;
+  }
+
+  body {
+      background-image: url(../resources/mainbg.png);
+      margin: 1% !important;
+      margin-left: 1% !important;
+      margin-right: 1% !important;
+      transition: ease-in-out 0.2s;
+  }
+
+  embed.footer {
+    height: 115px !important;
+  }
+}
+
+/*End of iPhone stuff*/
+
 html {
     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
 }
@@ -60,9 +105,9 @@ html {
 
 body {
     background-image: url(../resources/mainbg.png);
-    margin: 10px !important;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+    margin: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
     transition: ease-in-out 0.2s;
 }
 
@@ -155,9 +200,9 @@ embed.footer {
 @media screen and ( max-width: 662px ) {
   body {
       background-image: url(../resources/mainbg.png);
-      margin: 2% !important;
-      margin-left: 2% !important;
-      margin-right: 2% !important;
+      margin: 2%;
+      margin-left: 2%;
+      margin-right: 2%;
       transition: ease-in-out 0.2s;
   }
   .content {

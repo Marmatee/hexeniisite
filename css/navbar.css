@@ -1,3 +1,30 @@
+/*iPhone specific stuff*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  ul {
+    font-size: 50px;
+    transition: ease-in-out 0.2s;
+    box-shadow: 0 0 130px rgba(0,0,0,0.9) inset;
+  }
+  .alchemy {
+    font-size: 70px !important;
+    margin-left: -30px;
+    transition: ease-in-out 0.2s;
+    padding-right: 25px;
+  }
+  li a {
+    letter-spacing: 5px;
+    line-height: 60px !important;
+    display: block !important;
+  }
+  li {
+    display: inline !important;
+  }
+}
+
+/*End of iPhone stuff*/
+
 html {
   overflow: hidden;
 }
