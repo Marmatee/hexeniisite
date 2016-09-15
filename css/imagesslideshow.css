@@ -3,13 +3,21 @@
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
   .slideshow {
-    height: 240px !important;
+      height: 240px !important;
+      width: 983px !important;
+      margin-left: -60px !important;
+      padding-bottom: 435px !important;
+      border-radius: 0px !important;
   }
 
   .slideshow--bullet {
-    font-size: 25px !important;
-    top: 135px !important;
-    margin-left: 30px !important;
+      font-size: 44px !important;
+      top: 268px !important;
+      margin-left: 30px !important;
+  }
+
+  .maintext {
+    font-size: 46px !important;
   }
 
 }

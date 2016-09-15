@@ -34,12 +34,16 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
 
   embed.navbar {
-      height: 420px !important;
+      height: 550px !important;
       transition: ease-in-out 0.2s;
+      width: 990px !important;
+      margin-left: -50px !important;
   }
 
   embed.header {
-      height: 400px !important;
+      height: 530px !important;
+      width: 990px !important;
+      margin-left: -50px !important;
   }
 
   .maintext h2 {
@@ -49,9 +53,17 @@ and (max-device-width : 568px) {
       font-size: 80px;
   }
 
+  .maintext {
+      font-size: 120% !important;
+      text-align: justify !important;
+  }
+
   .content {
-      padding-top: 30px;
-      padding-bottom: 75px;
+      max-width: 900px !important;
+      border-radius: 0px !important;
+      padding: 40px !important;
+      padding-bottom: 75px !important;
+      box-shadow: 0 0 420px #c1af90 inset !important;
   }
 
   .alchemy {
@@ -59,15 +71,18 @@ and (max-device-width : 568px) {
   }
 
   body {
-      background-image: url(../resources/mainbg.png);
-      margin: 1% !important;
-      margin-left: 1% !important;
-      margin-right: 1% !important;
+      margin: 0px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
       transition: ease-in-out 0.2s;
   }
 
   embed.footer {
     height: 115px !important;
+    width: 990px !important;
+    margin-left: -50px !important;
   }
 }
 
