@@ -19,11 +19,7 @@ and (max-device-width : 568px) {
   .maintext {
     font-size: 50px !important;
   }
-
-  label {
-      font-size: 150px !important;
-      transform: translateY(-50px) !important;
-  }
+  
 }
 /*End of iPhone stuff*/
 
