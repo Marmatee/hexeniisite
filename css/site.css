@@ -152,6 +152,17 @@ h2 {
     transition: ease-in-out 0.2s;
 }
 
+a:hover {
+    color: #2e51bd !important;
+    transition: ease-in-out 0.2s !important;
+}
+
+a:-webkit-any-link {
+    color: #9a1500;
+    transition: ease-in-out 0.2s;
+    text-decoration: none;
+}
+
 embed.footer {
     width: 100%;
     height: 85px;
@@ -260,6 +271,10 @@ embed.footer {
       text-align: center;
       transition: ease-in-out 0.2s;
     }
+
+  .maintext {
+      margin-top: -50px;
+  }
 }
 
 @media screen and ( max-width: 374px ) {

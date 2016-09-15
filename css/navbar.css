@@ -119,6 +119,10 @@ li a:hover {
     li {
         display: inline;
     }
+    li a {
+      display: block;
+      text-align: center;
+    }
 }
 
 @media screen and ( max-width: 300px ) {
