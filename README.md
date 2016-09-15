@@ -11,7 +11,7 @@ https://rawgit.com/Marmatee/hexeniisite/master/index.html
 ## Compatibility
 - Works 100% in Chrome and Opera
 - Works to a perfectly useable level in IE, Firefox and Edge
-- ~Mobile works fine iOS and apparently Android too~
+- Mobile works fine in iOS (working on dedicated) and apparently Android too
 - Safari on Mac looks a like a mess, need to write CSS for it
 
 ## Mobile
