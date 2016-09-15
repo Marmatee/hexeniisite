@@ -54,7 +54,7 @@ and (max-device-width : 568px) {
   }
 
   .maintext {
-      font-size: 120% !important;
+      font-size: 30px !important;
       text-align: justify !important;
   }
 
