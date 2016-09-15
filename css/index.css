@@ -26,6 +26,7 @@ and (orientation: portrait) {
     background-image: url("../resources/frame.jpg");
     background-size: cover;
     background-position: center;
+    position: fixed !important;
   }
 
   .subtitle {
@@ -57,6 +58,7 @@ and (orientation: landscape) {
     background-image: url("../resources/frame.jpg");
     background-size: cover;
     background-position: center;
+    position: fixed !important;
   }
 
   .subtitle {
