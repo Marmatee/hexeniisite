@@ -47,7 +47,6 @@ and (max-device-width : 568px) {
   visibility: hidden;
   height: 0px;
 }
-
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -65,7 +64,9 @@ and (max-device-width : 568px) {
     list-style: none;
     background: url("../resources/headerbg.png");
     visibility: visible;
+ }
 }
+
 
   /* non-critical appearance styles */
   list-style: none;
@@ -74,9 +75,18 @@ and (max-device-width : 568px) {
 
 /* Navigation Menu - List items */
 .nav-item {
-    width: 1000;
-    border-top: 1px solid #111;
-    border-bottom: 1px solid #000;
+    width: 0;
+    border-top: 0px solid #111;
+    border-bottom: 0px solid #000;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav-item {
+      width: 1000;
+      border-top: 1px solid #111;
+      border-bottom: 1px solid #000;
+  }
 }
 
 .nav-item a {
@@ -104,28 +114,67 @@ and (max-device-width : 568px) {
 
 label[for="nav-trigger"] {
     position: fixed;
-    left: -465px;
-    top: 25px;
-    z-index: 2;
-    height: 100px;
-    font-size: 128px;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    height: 0px;
+    font-size: 0px;
     color: white;
-    width: 100px;
+    width: 0px;
     cursor: pointer;
     background-size: contain;
 }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  label[for="nav-trigger"] {
+      position: fixed;
+      left: -465px;
+      top: 25px;
+      z-index: 2;
+      height: 100px;
+      font-size: 128px;
+      color: white;
+      width: 100px;
+      cursor: pointer;
+      background-size: contain;
+  }
+}
+
 
 label:after {
   content:'\2630';
 }
 
 .nav-trigger:checked + label {
+    left: 0px;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+.nav-trigger:checked + label {
     left: 350px;
+}
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav-trigger:checked + label {
+      left: 350px;
+  }
 }
 
 .nav-trigger:checked ~ .site-wrap {
+    left: 0px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+.nav-trigger:checked ~ .site-wrap {
     left: 810px;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
 }
 
 body {
@@ -136,21 +185,33 @@ body {
 /* Additional non-critical styles */
 
 h1, h3, p {
+    max-width: initial;
+    margin: initial;
+    margin-top: initial;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+h1, h3, p {
     max-width: 1090px;
     margin: 0 auto 1em;
     margin-top: 90px;
 }
+}
 
+code {
+	padding: 0px;
+	background: #ddd;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
 code {
 	padding: 2px;
 	background: #ddd;
+}
 }
 
 /* Micro reset */
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
 html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
-
-/*Special site theme tweaks for mobile*/
-
-
-}
