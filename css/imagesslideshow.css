@@ -20,6 +20,9 @@ and (max-device-width : 568px) {
     font-size: 50px !important;
   }
 
+  .slideshow--nav:after {
+      color: #ffffff !important;
+  }
 }
 /*End of iPhone stuff*/
 
