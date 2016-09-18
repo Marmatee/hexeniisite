@@ -1,0 +1,126 @@
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* Navigation Menu - Background */
+.navigation {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    box-shadow: 0 0 500px rgba(0,0,0,0.9) inset;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    background: url("../resources/headerbg.png");
+}
+
+  /* non-critical appearance styles */
+  list-style: none;
+  background: #111;
+}
+
+/* Navigation Menu - List items */
+.nav-item {
+    width: 1000;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #000;
+}
+
+.nav-item a {
+    display: block;
+    padding: 50px;
+    background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    color: white;
+    font-size: 60px;
+    font-family: 'exocetlight';
+}
+
+.nav-item a:hover {
+  color: #c74438;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+}
+
+/* Site Wrapper - Everything that isn't navigation */
+.site-wrap {
+  /* Critical position and size styles */
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white; /* Needs a background or else the nav will show through */
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+
+  /* non-critical apperance styles */
+  background: url("../resources/centerbg.png");
+  background-size: 200%;
+}
+
+/* Nav Trigger */
+.nav-trigger {
+  /* critical styles - hide the checkbox input */
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    left: -465px;
+    top: 25px;
+    z-index: 2;
+    height: 100px;
+    font-size: 128px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    background-size: contain;
+}
+
+label:after {
+  content:'\2630';
+}
+
+/* Make the Magic Happen */
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+    transform: translateX(500px);
+}
+
+.nav-trigger:checked + label {
+    left: 350px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 810px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+body {
+	/* Without this, the body has excess horizontal scroll when the menu is open */
+  overflow-x: hidden;
+}
+
+/* Additional non-critical styles */
+
+h1, h3, p {
+    max-width: 1090px;
+    margin: 0 auto 1em;
+    margin-top: 90px;
+}
+
+code {
+	padding: 2px;
+	background: #ddd;
+}
+
+/* Micro reset */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+
+/*Special site theme tweaks for mobile*/
+
+
+}

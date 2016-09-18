@@ -19,9 +19,9 @@ and (max-device-width : 568px) {
   }
 
   .box {
-    height: 500px !important;
-    border-radius: 0px !important;
-    width: 985px !important;
+      height: 500px !important;
+      border-radius: 0px !important;
+      width: 1280px !important;
   }
 }
 /*End of iPhone stuff*/
