@@ -1,3 +1,53 @@
+.site-wrap {
+    min-height: 0%;
+    min-width: 0%;
+    background-color: #ffffff00;
+    position: relative;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    z-index: 1;
+    background: url("../resources/centerbg.png");
+    background-size: 0%;
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+    transform: translateX(0px);
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  /* Site Wrapper - Everything that isn't navigation */
+  .site-wrap {
+    /* Critical position and size styles */
+    min-height: 100%;
+    min-width: 100%;
+    background-color: white; /* Needs a background or else the nav will show through */
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+
+    /* non-critical apperance styles */
+    background: url("../resources/centerbg.png");
+    background-size: 200%;
+  }
+
+  /* Make the Magic Happen */
+  .nav-trigger + label, .site-wrap {
+      transition: left 0.2s;
+      transform: translateX(500px);
+  }
+}
+
+.navigation {
+  visibility: hidden;
+  height: 0px;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -14,6 +64,7 @@ and (max-device-width : 568px) {
     z-index: 0;
     list-style: none;
     background: url("../resources/headerbg.png");
+    visibility: visible;
 }
 
   /* non-critical appearance styles */
@@ -42,22 +93,7 @@ and (max-device-width : 568px) {
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
 }
 
-/* Site Wrapper - Everything that isn't navigation */
-.site-wrap {
-  /* Critical position and size styles */
-  min-height: 100%;
-  min-width: 100%;
-  background-color: white; /* Needs a background or else the nav will show through */
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
 
-  /* non-critical apperance styles */
-  background: url("../resources/centerbg.png");
-  background-size: 200%;
-}
 
 /* Nav Trigger */
 .nav-trigger {
@@ -81,12 +117,6 @@ label[for="nav-trigger"] {
 
 label:after {
   content:'\2630';
-}
-
-/* Make the Magic Happen */
-.nav-trigger + label, .site-wrap {
-    transition: left 0.2s;
-    transform: translateX(500px);
 }
 
 .nav-trigger:checked + label {
