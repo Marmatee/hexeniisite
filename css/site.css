@@ -32,6 +32,9 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
+  html {
+    overflow: hidden;
+  }
 
   embed.navbar {
       height: 550px !important;
@@ -43,7 +46,6 @@ and (max-device-width : 568px) {
 
   embed.header {
       height: 516px !important;
-      width: 1285px !important;
       margin-top: 25px !important;
       margin-left: -6px !important;
   }
@@ -65,7 +67,6 @@ and (max-device-width : 568px) {
   .content {
       max-width: 2000px !important;
       border-radius: 0px !important;
-      width: 1280px !important;
       transform: translateX(-500px) !important;
       padding: 0px !important;
       padding-bottom: 75px !important;
@@ -82,11 +83,11 @@ and (max-device-width : 568px) {
       margin-top: 0px !important;
       margin-bottom: 0px !important;
       transition: ease-in-out 0.2s;
+      -webkit-overflow-scrolling: touch;
   }
 
   embed.footer {
       height: 115px !important;
-      width: 1285px !important;
       margin-left: -6px !important;
       margin-bottom: -74px !important;
   }
