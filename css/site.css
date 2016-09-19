@@ -47,6 +47,7 @@ and (max-device-width : 568px) {
   embed.header {
       height: 516px !important;
       margin-top: 25px !important;
+      width: 1015px !important;
       margin-left: -6px !important;
   }
 
@@ -98,14 +99,14 @@ and (max-device-width : 568px) {
 
 /*End of iPhone stuff*/
 
-/*html {
+html {
     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
-}*/
+}
 
 .content {
     margin: auto;
     background: url("../resources/centerbg.png");
-    max-width: 940px;
+    max-width: 860px;
     border-radius: 25px;
     padding: 40px;
     box-shadow: 0 0 100px rgba(0,0,0,0.9);

@@ -162,7 +162,6 @@ div img {
 .maintext {
   font-size: 15px;
   color: black;
-  margin-bottom: 265px;
 }
 
 @media screen and ( max-width: 1070px ) {
