@@ -98,14 +98,14 @@ and (max-device-width : 568px) {
 
 /*End of iPhone stuff*/
 
-html {
+/*html {
     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
-}
+}*/
 
 .content {
     margin: auto;
     background: url("../resources/centerbg.png");
-    max-width: 860px;
+    max-width: 940px;
     border-radius: 25px;
     padding: 40px;
     box-shadow: 0 0 100px rgba(0,0,0,0.9);
@@ -131,9 +131,10 @@ html {
 
 body {
     background-image: url(../resources/mainbg.png);
-    margin: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 1%;
     transition: ease-in-out 0.2s;
 }
 

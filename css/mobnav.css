@@ -7,15 +7,9 @@
     bottom: 0%;
     left: 0;
     z-index: 1;
-    background: url("../resources/centerbg.png");
+    background: none;
     background-size: 0%;
 }
-
-.nav-trigger + label, .site-wrap {
-    transition: left 0.2s;
-    transform: translateX(0px);
-}
-
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -35,7 +29,16 @@ and (max-device-width : 568px) {
     background: url("../resources/centerbg.png");
     background-size: 200%;
   }
+}
 
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+    transform: translateX(0%);
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
   /* Make the Magic Happen */
   .nav-trigger + label, .site-wrap {
       transition: left 0.2s;
@@ -104,23 +107,6 @@ and (max-device-width : 568px) {
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
 }
 
-/* Site Wrapper - Everything that isn't navigation */
-.site-wrap {
-  /* Critical position and size styles */
-  min-height: 100%;
-  min-width: 100%;
-  background-color: white; /* Needs a background or else the nav will show through */
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
-
-  /* non-critical apperance styles */
-  background: url("../resources/centerbg.png");
-  background-size: 200%;
-}
-
 /* Nav Trigger */
 .nav-trigger {
   /* critical styles - hide the checkbox input */
@@ -162,21 +148,13 @@ label:after {
   content:'\2630';
 }
 
-/* Make the Magic Happen */
-.nav-trigger + label, .site-wrap {
-    transition: left 0.2s;
-    transform: translateX(500px);
-}
 
-<<<<<<< HEAD
 .nav-trigger:checked + label {
     left: 0px;
 }
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
-=======
->>>>>>> parent of 828812b... All the code is here, needs tweaking to look good
 .nav-trigger:checked + label {
     left: 350px;
 }
