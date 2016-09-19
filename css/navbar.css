@@ -25,6 +25,18 @@ and (max-device-width : 568px) {
   li {
     display: inline !important;
   }
+
+  li a:active {
+    -webkit-filter: drop-shadow(3px 3px 15px #D00000);
+    transition: ease-in-out 0.2s;
+    background-color: #d00000;
+  }
+
+  li a:hover {
+    -webkit-filter: drop-shadow(3px 3px 15px #D00000);
+    transition: ease-in-out 0.2s;
+    background-color: #d00000;
+  }
 }
 
 /*End of iPhone stuff*/
