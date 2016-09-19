@@ -22,7 +22,10 @@ and (max-device-width : 568px) {
   }
 
   .slideshow--nav:after {
-      color: #ffffff !important;
+      color: #fff;
+      top: 40% !important;
+      content: '\203A' !important;
+      font-size: 300px !important;
   }
 }
 /*End of iPhone stuff*/
@@ -95,11 +98,11 @@ and (max-device-width : 568px) {
 
 .slideshow--nav:after {
   display: block;
-  content: '\25B6';
-  font-size: 2em;
+  content: '\203A';
+  font-size: 5em;
   color: #fff0;
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 10px;
   margin-top: -.5em;
   transition: ease-in-out 0.2s;
