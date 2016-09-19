@@ -48,8 +48,7 @@ and (max-device-width : 568px) {
 }
 
 .navigation {
-  visibility: hidden;
-  height: 0px;
+  display: none;
 }
 
 @media only screen
