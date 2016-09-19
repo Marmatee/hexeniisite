@@ -5,15 +5,14 @@ and (max-device-width : 568px) {
   .slideshow {
       width: 100% !important;
       padding-bottom: 0px !important;
-      transform: scale(1.25, 1.25) translate(100px, 100px);
       border-radius: 0px !important;
   }
 
   .slideshow--bullet {
       font-size: 44px !important;
-      top: 320px !important;
+      top: 200px !important;
       margin-left: 25px !important;
-      left: -9%;
+      left: -2%;
   }
 
   .maintext {
