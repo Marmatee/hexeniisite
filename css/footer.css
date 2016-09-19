@@ -6,7 +6,6 @@ and (max-device-width : 568px) {
       font-size: 45px;
       height: 50px;
       border-radius: 0px !important;
-      width: 1280px !important;
   }
 }
 /*End of iPhone stuff*/
