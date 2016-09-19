@@ -46,9 +46,9 @@ and (max-device-width : 568px) {
 
   embed.header {
       height: 516px !important;
-      margin-top: 25px !important;
+      margin-top: -9px !important;
       width: 1015px !important;
-      margin-left: -6px !important;
+      margin-left: -9px !important;
   }
 
   .maintext h2 {
@@ -92,8 +92,9 @@ and (max-device-width : 568px) {
 
   embed.footer {
       height: 115px !important;
-      margin-left: -6px !important;
+      margin-left: -9px !important;
       margin-bottom: -74px !important;
+      width: 101% !important;
   }
 }
 
