@@ -132,7 +132,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
   label[for="nav-trigger"] {
       position: fixed;
-      left: -465px;
+      transform: translateX(35px);
       top: 0px;
       z-index: 2;
       height: 100px;
@@ -156,15 +156,8 @@ label:after {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
-.nav-trigger:checked + label {
-    left: 345px;
-}
-}
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) {
   .nav-trigger:checked + label {
-      left: 350px;
+      transform: translateX(850px);
   }
 }
 
@@ -175,12 +168,21 @@ and (max-device-width : 568px) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
-.nav-trigger:checked ~ .site-wrap {
-    left: 810px;
-    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
-    -webkit-filter: brightness(50%) !important;
-    transition: ease-in-out 0.2s;
+  .nav-trigger:checked ~ .site-wrap {
+      box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+      -webkit-filter: brightness(50%) !important;
+      transition: ease-in-out 0.2s;
+      transform: translateX(1320px);
+  }
 }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav-trigger:checked ~ .navigation {
+      -webkit-filter: brightness(50%) !important;
+      transition: ease-in-out 0.2s;
+  }
 }
 
 body {
