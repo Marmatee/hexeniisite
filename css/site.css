@@ -49,6 +49,7 @@ and (max-device-width : 568px) {
       margin-top: -9px !important;
       width: 1015px !important;
       margin-left: -9px !important;
+      margin-bottom: -75px;
   }
 
   .maintext h2 {
@@ -61,7 +62,6 @@ and (max-device-width : 568px) {
   .maintext {
       font-size: 50px !important;
       margin-top: -490px !important;
-      margin-bottom: 100% !important;
       max-width: 90%;
       margin-left: 30px !important;
       text-align: justify !important;

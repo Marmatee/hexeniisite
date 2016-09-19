@@ -185,8 +185,8 @@ and (max-device-width : 568px) {
   }
 }
 
-body {
 	/* Without this, the body has excess horizontal scroll when the menu is open */
+body {
   overflow-x: hidden;
 }
 
