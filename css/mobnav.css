@@ -170,9 +170,6 @@ and (max-device-width : 568px) {
 .nav-trigger:checked ~ .site-wrap {
     left: 0px;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
-    -webkit-filter: brightness(33%);
-    transition: ease-in-out 0.2s;
-}
 }
 @media only screen
 and (min-device-width : 320px)
