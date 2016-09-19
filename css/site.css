@@ -61,6 +61,8 @@ and (max-device-width : 568px) {
       font-size: 50px !important;
       margin-top: -490px !important;
       margin-bottom: 100% !important;
+      max-width: 90%;
+      margin-left: 30px !important;
       text-align: justify !important;
   }
 
