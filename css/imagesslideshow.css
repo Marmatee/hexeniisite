@@ -3,16 +3,17 @@
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
   .slideshow {
-      width: 100% !important;
+      width: 112% !important;
+      left: -50px;
       padding-bottom: 0px !important;
       border-radius: 0px !important;
   }
 
   .slideshow--bullet {
       font-size: 44px !important;
-      top: 200px !important;
+      top: 260px !important;
       margin-left: 25px !important;
-      left: -2%;
+      left: -1%;
   }
 
   .maintext {
