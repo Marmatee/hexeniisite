@@ -24,7 +24,7 @@ and (max-device-width : 568px) {
   .slideshow--nav:after {
       color: #fff;
       top: 45% !important;
-      content: '\25B7' !important;
+      content: '\25B6' !important;
       font-size: 100px !important;
       left: 375px;
   }
