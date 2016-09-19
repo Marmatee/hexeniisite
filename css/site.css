@@ -69,6 +69,7 @@ and (max-device-width : 568px) {
       transform: translateX(-500px) !important;
       padding: 0px !important;
       padding-bottom: 75px !important;
+      background-size: 100px !important;
   }
 
   .alchemy {

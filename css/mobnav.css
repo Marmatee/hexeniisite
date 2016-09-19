@@ -68,6 +68,7 @@ and (max-device-width : 568px) {
     list-style: none;
     background: url("../resources/headerbg.png");
     display: flex;
+    background-size: 100px;
  }
 }
 

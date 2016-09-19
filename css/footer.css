@@ -8,6 +8,7 @@ and (max-device-width : 568px) {
       height: 60px;
       border-radius: 0px !important;
       width: 100% !important;
+      background-size: 100px !important;
 }
 }
 /*End of iPhone stuff*/
