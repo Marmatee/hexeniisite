@@ -85,6 +85,8 @@ and (max-device-width : 568px) {
       margin-top: 0px !important;
       margin-bottom: 0px !important;
       transition: ease-in-out 0.2s;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
   }
 
   embed.footer {
