@@ -67,7 +67,7 @@ and (max-device-width : 568px) {
     z-index: 0;
     list-style: none;
     background: url("../resources/headerbg.png");
-    visibility: visible;
+    display: flex;
  }
 }
 
