@@ -96,6 +96,17 @@ and (max-device-width : 568px) {
       transform: translateX(-8px) translateY(0px);
       width: 101% !important;
   }
+
+  .video {
+    transform: translateX(-50px);
+    width: 112%;
+    border-radius: 0px !important;
+  }
+
+  .p2 {
+    margin-bottom: -50px;
+}
+
 }
 
 /*End of iPhone stuff*/
