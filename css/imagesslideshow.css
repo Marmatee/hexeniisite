@@ -4,9 +4,8 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
   .slideshow {
       width: 112% !important;
-      left: -50px;
+      left: -49px;
       padding-bottom: 0px !important;
-      border-radius: 0px !important;
   }
 
   .slideshow--bullet {
@@ -27,6 +26,10 @@ and (max-device-width : 568px) {
       content: '\25B6' !important;
       font-size: 100px !important;
       left: 375px;
+  }
+
+  div img {
+    border-radius: 0px !important;
   }
 }
 /*End of iPhone stuff*/

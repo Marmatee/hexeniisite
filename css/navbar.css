@@ -8,7 +8,7 @@ and (max-device-width : 568px) {
       box-shadow: none !important;
       border-radius: 0px !important;
       width: 985px;
-      height: 825px;
+      height: 110%;
       background: none !important;
   }
   .alchemy {

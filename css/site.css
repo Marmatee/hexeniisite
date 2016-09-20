@@ -33,10 +33,10 @@
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
   html {
-    overflow: hidden;
+    overflow: auto;
     background-image: url(../resources/headerbg.png) !important;
     background-size: 100px;
-    background-attachment: fixed !important;
+    box-shadow: 0 0 500px rgba(0,0,0,0.9) inset !important;
   }
 
   embed.navbar {
@@ -92,9 +92,8 @@ and (max-device-width : 568px) {
   }
 
   embed.footer {
-      height: 115px !important;
-      margin-left: -9px !important;
-      margin-bottom: -74px !important;
+      height: 119px !important;
+      transform: translateX(-8px) translateY(0px);
       width: 101% !important;
   }
 }
@@ -241,7 +240,6 @@ embed.footer {
 
 @media screen and ( max-width: 662px ) {
   body {
-      background-image: url(../resources/mainbg.png);
       margin: 2%;
       margin-left: 2%;
       margin-right: 2%;
