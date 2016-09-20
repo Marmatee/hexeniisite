@@ -1,9 +1,12 @@
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 
 font-weight: normal;
 
 }
-
+}
 /*
 Keeping this for the future. Copied this from here:
 https://css-tricks.com/forums/topic/weird-mobile-safari-font-face-problem-font-doubled-and-offset-to-the-left/
