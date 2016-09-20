@@ -82,6 +82,8 @@ and (max-device-width : 568px) {
       margin-right: 0px !important;
       margin-top: 0px !important;
       margin-bottom: 0px !important;
+      background-image: url(../resources/headerbg.png) !important;
+      background-size: 100px;
       transition: ease-in-out 0.2s;
       overflow: auto;
       -webkit-overflow-scrolling: touch;
