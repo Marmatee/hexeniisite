@@ -3,25 +3,33 @@
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
   .slideshow {
-      height: 240px !important;
-      width: 983px !important;
-      margin-left: -60px !important;
-      padding-bottom: 435px !important;
-      border-radius: 0px !important;
+      width: 112% !important;
+      left: -49px;
+      padding-bottom: 0px !important;
   }
 
   .slideshow--bullet {
       font-size: 44px !important;
-      top: 268px !important;
-      margin-left: 30px !important;
+      top: 260px !important;
+      margin-left: 25px !important;
+      left: -1%;
   }
 
   .maintext {
     font-size: 50px !important;
+    margin-bottom: 60% !important;
   }
 
   .slideshow--nav:after {
-      color: #ffffff !important;
+      color: #fff !important;
+      top: 45% !important;
+      content: '\25B6' !important;
+      font-size: 100px !important;
+      left: 375px;
+  }
+
+  div img {
+    border-radius: 0px !important;
   }
 }
 /*End of iPhone stuff*/
@@ -94,14 +102,15 @@ and (max-device-width : 568px) {
 
 .slideshow--nav:after {
   display: block;
-  content: '\25B6';
-  font-size: 2em;
+  content: '\25B7';
+  font-size: 3em;
   color: #fff0;
   position: absolute;
   top: 50%;
   right: 10px;
   margin-top: -.5em;
   transition: ease-in-out 0.2s;
+  font-family: 'carrois';
 }
 
 .slideshow--nav:hover {

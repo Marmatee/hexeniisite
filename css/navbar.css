@@ -3,26 +3,49 @@
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
   ul {
-    font-size: 70px;
-    transition: ease-in-out 0.2s;
-    box-shadow: 0 0 250px rgba(0,0,0,0.9) inset !important;
-    border-radius: 0px !important;
-    width: 985px;
+      font-size: 70px;
+      transition: ease-in-out 0.2s;
+      box-shadow: none !important;
+      border-radius: 0px !important;
+      width: 985px;
+      height: 110%;
+      background: none !important;
   }
   .alchemy {
     font-size: 90px !important;
-    margin-left: -30px;
+    margin-left: 25px;
     transition: ease-in-out 0.2s;
     padding-right: 25px !important;
   }
   li a {
     letter-spacing: 5px;
-    line-height: 90px !important;
-    display: block !important;
+    line-height: 160px !important;
+    display: flex !important;
   }
   li {
     display: inline !important;
   }
+
+  li a:active {
+    -webkit-filter: drop-shadow(3px 3px 15px #D00000);
+    transition: ease-in-out 0.2s;
+    background-color: #d00000;
+  }
+
+  li a:hover {
+    -webkit-filter: drop-shadow(3px 3px 15px #D00000);
+    transition: ease-in-out 0.2s;
+    background-color: #d00000;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+li a {
+    line-height: 100px !important;
+}
 }
 
 /*End of iPhone stuff*/

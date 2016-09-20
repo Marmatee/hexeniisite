@@ -3,11 +3,13 @@
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
   .footer {
-    font-size: 45px;
-    height: 50px;
-    border-radius: 0px !important;
-    width: 985px !important;
-  }
+      font-size: 45px;
+      padding-top: 35px !important;
+      height: 60px;
+      border-radius: 0px !important;
+      width: 100% !important;
+      background-size: 100px !important;
+}
 }
 /*End of iPhone stuff*/
 

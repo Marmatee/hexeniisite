@@ -20,6 +20,10 @@
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
+  .overlay {
+      background-size: 420px;
+    }
+
   video#bgvid {
     visibility: hidden;
   }
@@ -52,6 +56,10 @@ and (orientation: portrait) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: landscape) {
+  .overlay {
+      background-size: 420px;
+    }
+    
   video#bgvid {
     visibility: hidden;
   }

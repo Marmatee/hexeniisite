@@ -1,0 +1,27 @@
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+
+font-weight: normal;
+
+}
+}
+/*
+Keeping this for the future. Copied this from here:
+https://css-tricks.com/forums/topic/weird-mobile-safari-font-face-problem-font-doubled-and-offset-to-the-left/
+
+Apparently many mobile devices (mobile safari included)
+style heading tags (h1-h6) with something like font-weight:
+bold. If the font you are using doesn’t include a bold
+weight, then the browser will create a faux bold and offset
+that. Yup – super ugly. What’s the remedy? You should be
+able to include this code either in your reset stylesheet
+or your style.css
+
+-----------------------------------------------------------
+
+Hopefully that's explained!
+
+- Marmatee
+*/

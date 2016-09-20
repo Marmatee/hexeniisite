@@ -1,0 +1,207 @@
+.site-wrap {
+    min-height: 0%;
+    min-width: 0%;
+    background-color: #ffffff00;
+    position: relative;
+    top: 0;
+    bottom: 0%;
+    left: 0;
+    z-index: 1;
+    background: none;
+    background-size: 0%;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  /* Site Wrapper - Everything that isn't navigation */
+  .site-wrap {
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+    transform: translateX(0%);
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  /* Make the Magic Happen */
+  .nav-trigger + label, .site-wrap {
+      transition: left 0.2s;
+      transform: translateX(500px);
+      transition: ease-in-out 0.2s;
+  }
+}
+
+.navigation {
+  display: none;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* Navigation Menu - Background */
+.navigation {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -10;
+    right: 0;
+    bottom: 0;
+    left: -10;
+    z-index: 0;
+    list-style: none;
+    display: flex;
+ }
+}
+
+/* Navigation Menu - List items */
+.nav-item {
+    width: 0;
+    border-top: 0px solid #111;
+    border-bottom: 0px solid #000;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav-item {
+      width: 1000;
+      border-top: 1px solid #111;
+      border-bottom: 1px solid #000;
+  }
+}
+
+.nav-item a {
+    display: block;
+    padding: 50px;
+    background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+    color: white;
+    font-size: 60px;
+    font-family: 'exocetlight';
+}
+
+.nav-item a:hover {
+  color: #c74438;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+}
+
+/* Nav Trigger */
+.nav-trigger {
+  /* critical styles - hide the checkbox input */
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    height: 0px;
+    font-size: 0px;
+    color: white;
+    width: 0px;
+    cursor: pointer;
+    background-size: contain;
+    -webkit-filter: drop-shadow(0px 0px 15px #D00000);
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  label[for="nav-trigger"] {
+      position: fixed;
+      transform: translateX(35px);
+      top: 0px;
+      z-index: 2;
+      height: 100px;
+      font-size: 128px;
+      color: white;
+      width: 100px;
+      cursor: pointer;
+      background-size: contain;
+  }
+}
+
+
+label:after {
+  content:'\2630';
+}
+
+
+.nav-trigger:checked + label {
+    left: 0px;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav-trigger:checked + label {
+      transform: translateX(850px);
+  }
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 0px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav-trigger:checked ~ .site-wrap {
+      box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+      -webkit-filter: brightness(50%) !important;
+      transition: ease-in-out 0.2s;
+      transform: translateX(1320px);
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .nav-trigger:checked ~ .navigation {
+      -webkit-filter: brightness(50%) !important;
+      transition: ease-in-out 0.2s;
+  }
+}
+
+	/* Without this, the body has excess horizontal scroll when the menu is open */
+body {
+  overflow-x: hidden;
+}
+
+/* Additional non-critical styles */
+
+h1, h3, p {
+    max-width: initial;
+    margin: initial;
+    margin-top: initial;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+h1, h3, p {
+    max-width: 1090px;
+    margin: 0 auto 1em;
+    margin-top: 90px;
+}
+}
+
+code {
+	padding: 0px;
+	background: #ddd;
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+code {
+	padding: 2px;
+	background: #ddd;
+}
+}

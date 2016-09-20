@@ -32,18 +32,23 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
+  html {
+    overflow: auto;
+    background-image: url(../resources/headerbg.png) !important;
+    background-size: 100px;
+    box-shadow: 0 0 500px rgba(0,0,0,0.9) inset !important;
+  }
 
   embed.navbar {
-      height: 550px !important;
-      transition: ease-in-out 0.2s;
-      width: 990px !important;
-      margin-left: -50px !important;
+      display: none;
   }
 
   embed.header {
-      height: 530px !important;
-      width: 990px !important;
-      margin-left: -50px !important;
+      height: 516px !important;
+      margin-top: -9px !important;
+      width: 1015px !important;
+      margin-left: -9px !important;
+      margin-bottom: -75px;
   }
 
   .maintext h2 {
@@ -55,15 +60,19 @@ and (max-device-width : 568px) {
 
   .maintext {
       font-size: 50px !important;
+      margin-top: 0px !important;
+      max-width: 90%;
+      margin-left: 30px !important;
       text-align: justify !important;
   }
 
   .content {
-      max-width: 900px !important;
+      max-width: 2000px !important;
       border-radius: 0px !important;
-      padding: 40px !important;
+      transform: translateX(-500px) !important;
+      padding: 0px !important;
       padding-bottom: 75px !important;
-      box-shadow: 0 0 420px #c1af90 inset !important;
+      background-size: 100px !important;
   }
 
   .alchemy {
@@ -76,13 +85,16 @@ and (max-device-width : 568px) {
       margin-right: 0px !important;
       margin-top: 0px !important;
       margin-bottom: 0px !important;
+      background-image: none !important;
       transition: ease-in-out 0.2s;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
   }
 
   embed.footer {
-    height: 115px !important;
-    width: 990px !important;
-    margin-left: -50px !important;
+      height: 119px !important;
+      transform: translateX(-8px) translateY(0px);
+      width: 101% !important;
   }
 }
 
@@ -121,9 +133,10 @@ html {
 
 body {
     background-image: url(../resources/mainbg.png);
-    margin: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 1%;
     transition: ease-in-out 0.2s;
 }
 
@@ -189,6 +202,7 @@ embed.footer {
 	position:relative;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
+  margin-top: 100px;
 	height: 0;
 	overflow:hidden;
   border-radius: 5px;
@@ -226,7 +240,6 @@ embed.footer {
 
 @media screen and ( max-width: 662px ) {
   body {
-      background-image: url(../resources/mainbg.png);
       margin: 2%;
       margin-left: 2%;
       margin-right: 2%;

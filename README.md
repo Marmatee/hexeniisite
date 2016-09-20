@@ -2,16 +2,17 @@
 Web design project for Hexen II fan site.
 
 ## Check the site out live!
-https://rawgit.com/Marmatee/hexeniisite/master/index.html
+https://cdn.rawgit.com/Marmatee/hexeniisite/master/index.html
 
 ## Credits
 - https://github.com/joggink/pure-css-slideshow
 - http://bg.siteorigin.com/
+- http://codepen.io/SitePoint/pen/uIemr
 
 ## Compatibility
 - Works 100% in Chrome and Opera
 - Works to a perfectly useable level in IE, Firefox and Edge
-- Mobile works fine in iOS (working on dedicated) and apparently Android too
+- Dedicated mobile compatibility
 - Safari on Mac looks a like a mess, need to write CSS for it
 
 ## Mobile
