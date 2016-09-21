@@ -8,6 +8,7 @@ https://cdn.rawgit.com/Marmatee/hexeniisite/master/index.html
 - https://github.com/joggink/pure-css-slideshow
 - http://bg.siteorigin.com/
 - http://codepen.io/SitePoint/pen/uIemr
+- http://fontastic.me/
 
 ## Compatibility
 - Works 100% in Chrome and Opera
