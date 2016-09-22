@@ -118,7 +118,7 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
   label[for="nav-trigger"] {
       position: fixed;
-      transform: translateX(35px);
+      transform: translateX(35px) translateY(15px);
       top: 0px;
       z-index: 2;
       height: 100px;
@@ -132,7 +132,8 @@ and (max-device-width : 568px) {
 
 
 label:after {
-  content:'\2630';
+    content: '\64';
+    font-family: 'icon';
 }
 
 
@@ -143,7 +144,7 @@ label:after {
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
   .nav-trigger:checked + label {
-      transform: translateX(850px);
+      transform: translateX(850px) translateY(15px);
   }
 }
 
