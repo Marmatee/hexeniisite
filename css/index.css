@@ -28,13 +28,6 @@ and (orientation: portrait) {
     visibility: hidden;
   }
 
-  body {
-    background-image: url("../resources/frame.jpg");
-    background-size: cover;
-    background-position: center;
-    position: fixed !important;
-  }
-
   .subtitle {
     top: 1130px !important;
     font-size: 85px !important;
@@ -59,16 +52,9 @@ and (orientation: landscape) {
   .overlay {
       background-size: 420px;
     }
-    
+
   video#bgvid {
     visibility: hidden;
-  }
-
-  body {
-    background-image: url("../resources/frame.jpg");
-    background-size: cover;
-    background-position: center;
-    position: fixed !important;
   }
 
   .subtitle {
@@ -149,7 +135,7 @@ video#bgvid {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100;
+  z-index: 1;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -183,6 +169,19 @@ video#bgvid {
   top: 0px;
   left: 0px;
   z-index: 10;
+}
+
+.underlay {
+  background-image: url("../resources/frame.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  -webkit-filter: brightness(50%);
+  z-index: 0;
 }
 
 embed.favicons {
@@ -237,14 +236,6 @@ embed.favicons {
 @media screen and ( max-width: 600px ) {
   video#bgvid {
     visibility: hidden;
-  }
-
-  body {
-    background-image: url("../resources/frame.jpg");
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    position: fixed;
   }
 
   html {
