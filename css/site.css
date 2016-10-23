@@ -34,9 +34,22 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
   html {
     overflow: auto;
-    background-image: url(../resources/headerbg.png) !important;
+    background: black !important;
     background-size: 100px;
     box-shadow: 0 0 500px rgba(0,0,0,0.9) inset !important;
+  }
+
+  .under-bg {
+      background-image: url(../resources/headerbg.png) !important;
+      background-position: center;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      background-size: 100px;
+      box-shadow: 0 0 500px rgba(0,0,0,0.9) inset !important;
+      z-index: -10;
   }
 
   embed.navbar {
@@ -147,12 +160,23 @@ html {
 }
 
 body {
-    background-image: url(../resources/mainbg.png);
+    /*background-image: url(../resources/mainbg.png);*/
     margin-top: 1%;
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 1%;
     transition: ease-in-out 0.2s;
+}
+
+.under-bg {
+  background-image: url("../resources/mainbg.png");
+  background-position: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -10;
 }
 
 embed.header {
