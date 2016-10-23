@@ -38,6 +38,7 @@ and (max-device-width : 568px) {
     transform: translateY(600px);
     padding-bottom: 90px;
 }
+
 }
 /*End of iPhone stuff*/
 
@@ -204,12 +205,12 @@ div img {
     position: relative;
     text-align: center;
     line-height: 700px;
-    padding-bottom: 280px;
+    padding-bottom: 300px;
     transition: ease-in-out 0.2s;
   }
 
   .slideshow--bullet {
-    top: 140px;
+    top: 160px;
   }
 }
 

@@ -22,7 +22,10 @@ https://cdn.rawgit.com/Marmatee/hexeniisite/master/index.html
 ## Next steps?
 - Make it work on Safari
 - Stop the techno rave glowing magic symbols in Edge
-- Bug: .content for some reason is shifted right a few px on music and lore pages
+
+## Bugs
+- .content for some reason is shifted right a few px on music and lore pages
+- Media queries on screenshots needs fixing as the bullets can overflow onto the pictures at certain window sizes
 
 ## Cosmetic stuff to be done
 - Record my own video for the background on index.html
